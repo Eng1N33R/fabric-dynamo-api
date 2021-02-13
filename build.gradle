@@ -32,8 +32,8 @@ dependencies {
     // You may need to force-disable transitiveness on them.
     compileOnly "com.google.code.findbugs:jsr305:3.0.2"
 
-    modImplementation("io.engi.fabricmc:engilib:1.0.0+1.16.4") { transitive = false }
-    include "io.engi.fabricmc:engilib:1.0.0+1.16.4"
+    modImplementation("io.engi.fabricmc:engilib:1.0.0+1.16") { transitive = false }
+    include "io.engi.fabricmc:engilib:1.0.0+1.16"
 }
 
 processResources {
